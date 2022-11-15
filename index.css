@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes type {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@font-face {
+    font-family: typewriter;
+    src: url(fonts/MODERN\ TYPEWRITER.ttf);
+}
+
+
+body {
+    font-family: 'typewriter';
+    color: #edede9;
+    background-color: gray;
+    background-image: url(./images/bg-gif.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+
+}
+
+/*Start of Header CSS*/
+#home-page h1 {
+	position: relative;
+}
+
+#home-page h1::before,
+#home-page h1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#home-page h1::before {
+    background-color: #010000;
+    animation: type 5.5s steps(28) 1s forwards;
+}
+
+#home-page h1::after {
+    width: 0.125em;
+    background-color: #edede9;
+    animation: type 5.5s steps(28) 1s forwards,
+    blink 600ms steps(28) infinite;
+}
+
+#home-page a:hover {
+    color: #ffff;
+    text-shadow:0 0 10px #ffff,
+                0 0 20px #ffff,
+                0 0 40px #ffff,
+                0 0 80px #ffff,
+                0 0 120px #ffff,
+                0 0 160px #ffff;
+}
+
+#btn-about:hover span,
+#btn-work:hover span,
+#btn-contact:hover span {
+	display: none;
+}
+
+#btn-about:hover:before {
+	content: "About Me";
+}
+
+#btn-work:hover:before {
+	content: "My Work";
+}
+
+#btn-contact:hover:before {
+	content: "Contact Me";
+}
+
+#fade-in {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease 7s forwards;
+}
+
+.container-fluid {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+h2 {
+	color: #ffff;
+    text-shadow:0 0 10px #ffff,
+                0 0 20px #ffff,
+                0 0 40px #ffff,
+                0 0 80px #ffff,
+                0 0 120px #ffff,
+                0 0 160px #ffff;
+}
+
+.card img, .img-footer {
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+}
+
+.card img:hover, .img-footer {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.sidebar ,.sidebar .card {
+    background-color: #010000;
+    background-image: url(./images/bg-gif.gif);
+}
+
+.nav-logo {
+    width: 50px;
+}
+
+.nav-img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.right-sidebar {
+    margin-top: 60vh;
+}
+
+.img-footer {
+    text-decoration: none;
+    margin: 0 10px;
+    width: 30px;
+    border-radius: 5px;
+}

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Earl John Portfolio">
+		<meta name="author" content="Earl John">
+		<meta name="viewport"  content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="./images/logo.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+		<title>Earl John Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="./index.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+	<body class="text-center">
+		<!-- Start of Navbar -->
+		<nav class="d-lg-none navbar navbar-expand-lg navbar-dark bg-primary">
+			  <a class="navbar-brand" href="#home-page-sm"><img class="nav-logo" src="./images/logo.png"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#about-page-sm">About Me<span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#work-page">My Works</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#contact-page">Contact Me</a>
+			      </li>
+			    </ul>
+			  </div>
+		</nav>
+		<!-- End of Navbar -->
+
+
+		
+		<div class="container-fluid text-center">
+			<!-- Start of Landing Page -->
+			<div id="home-page" class="d-none d-lg-flex align-items-center justify-content-center min-vh-100 row">
+				<div id="typing-animation">
+					<h1>
+						<a href="#about-page" id="btn-about" class="text-decoration-none text-white"><span>Hi,<span></a>
+						<a href="#work-page" id="btn-work" class="text-decoration-none text-white"><span>I'm Earl John!<span></a>
+						<a href="#contact-page" id="btn-contact" class="text-decoration-none text-white"><span>Full-Stack Developer<span></a>
+					</h1>
+					<div>
+						<p id="fade-in">Hover to the text!</p>
+					</div>
+				</div>
+			</div>
+			<!-- End of Landing Page -->
+		</div>
+
+		<div class="container-fluid text-center">
+			<div class="row">
+				<!-- Start of Side Navbar -->
+				<div class="sidebar card col-lg-1 d-none d-lg-block p-0 sticky-top h-100">
+					<div class="accordion vh-100" id="accordion-side">
+
+					  <div class="card">
+					    <div class="card-header" id="heading-one">
+					      <h2 class="mb-0">
+					        <a href="#home-page"><img class="nav-logo" src="./images/logo.png"></a>
+					      </h2>
+					    </div>
+					  </div>
+
+					  <div class="card">
+					    <div class="card-header" id="heading-two">
+					      <h2 class="mb-0">
+					        <a href="#home-page">
+					        	<img class="nav-img bg-info" src="./images/home.png">
+					        </a>
+					      </h2>
+					    </div>
+					  </div>
+
+					  <div class="card">
+					    <div class="card-header" id="heading-three">
+					      <h2 class="mb-0">
+					        <a href="#about-page">
+					        	<img class="nav-img bg-info" src="./images/about-me.png">
+					        </a>
+					      </h2>
+					    </div>
+					  </div>
+
+					  <div class="card">
+					    <div class="card-header" id="heading-four">
+					      <h2 class="mb-0">
+					        <a href="#work-page">
+					        	<img class="nav-img bg-info" src="./images/my-work.png">
+					        </a>
+					      </h2>
+					    </div>
+					  </div>
+
+					  <div class="card">
+					    <div class="card-header" id="heading-four">
+					      <h2 class="mb-0">
+					        <a href="#contact-page">
+					        	<img class="nav-img bg-info" src="./images/contact-me.png">
+					        </a>
+					      </h2>
+					    </div>
+					  </div>
+
+					</div>
+				</div>
+				<!-- End of Side Navbar -->
+
+				<!-- Start of About Me  -->
+				<div id="about-page" class="col-lg-10 d-lg-flex align-items-center justify-content-center min-vh-100">
+					<div class="col-lg-6 order-1 order-lg-2 d-flex align-items-center justify-content-center flex-column min-vh-100" id="home-page-sm" data-aos="zoom-out-left" data-aos-duration="2000">
+						<img src="./images/me.jpg" class="img-fluid rounded-circle">
+						<h2 class="d-lg-none mt-3 mt-lg-0">Earl John Mambinunsad</h2>
+						<h4 class="d-lg-none">Full-Stack Developer</h4>
+					</div>
+					<div class="col-lg-5 order-2 order-lg-1" data-aos="zoom-out-right" data-aos-duration="2000">
+					<h2 id="about-page-sm" class="mt-5 mt-lg-0">About Me</h2>
+					<p class="mt-lg-5 mt-3 text-justify">I'm Earl John, a Filipino full-stack developer who likes to create animated and effective implementation. I had held a position as a delivery rider for one of the major online retailers in the Philippines, but I left to seek a career in the IT sector. I've performed numerous remote freelancing projects, especially as an encoder, but that's not what I want to do.Back in college, I had a fondness for coding, so I made the decision to study whenever I had free time while working as a freelancer and encoder. I've read and seen a lot of tutorials about web design and development, and as I was surfing Facebook, I spotted adverts for Zuit, one of the best coding bootcamps in the Philippines. I made an attempt to apply, and I was granted admission as a student. It assists me in improving my coding abilities and becoming an effective full-stack developer.</p>
+					</div>
+				</div>
+				<!-- End of About Me  -->
+
+				<!-- Start of Right Side Bar -->
+				<div class="sidebar card col-lg-1 d-none d-lg-block p-0 sticky-top h-100">
+					<div class="accordion vh-100" id="accordion-side">
+
+					  <div class="card">
+					    <div class="card-header" id="heading-one">
+					      <h2 class="mb-0">
+					        <a href="https://www.facebook.com/03Meg29/" target="_blank">
+					        	<img class="right-sidebar nav-img" src="./images/fb-logo.png">
+					        </a>
+					      </h2>
+					    </div>
+					  </div>
+
+					  <div class="card">
+					    <div class="card-header" id="heading-two">
+					      <h2 class="mb-0">
+					        <a href="https://twitter.com/EjhayJenRain" target="_blank">
+					        	<img class="nav-img"src="./images/twitter-logo.png">
+					        </a>
+					      </h2>
+					    </div>
+					  </div>
+
+					  <div class="card">
+					    <div class="card-header" id="heading-three">
+					      <h2 class="mb-0">
+					        <a href="#about-page">
+					        	<a href="https://www.instagram.com/mambinunsad.earljohn/" target="_blank">
+					        		<img class="nav-img" src="./images/instagram-logo.png">
+					        	</a>
+					        </a>
+					      </h2>
+					    </div>
+					  </div>
+
+					  <div class="card">
+					    <div class="card-header" id="heading-four">
+					      <h2 class="mb-0">
+					        <a href="https://www.linkedin.com/in/earl-john-mambinunsad-433565233/" target="_blank">
+					        	<img class="nav-img" src="./images/linked-logo.png">
+					        </a>
+					      </h2>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<!-- End of rightSide Bar -->
+			
+				<!-- Start of My Work -->
+				<div id="work-page" class="col-lg-12 d-lg-flex align-items-center justify-content-center min-vh-100">
+					<div class="col-lg-12 d-lg-flex align-items-center justify-content-center flex-column">
+						<h2 class="mb-5 mt-lg-0 mt-5">My Work</h2>
+						
+						<div class="col-lg-12 d-lg-flex align-items-center justify-content-center">
+
+							<div class="card bg-dark col-lg-3" data-aos="flip-right" data-aos-duration="2000">
+							  <div class="card-body">
+							  	<img class="img-fluid" src="./images/work-1.jpg">
+							    <h5 class="card-title mt-3">Project 1</h5>
+							    <p class="card-text">
+							    	A simple project made from HTML
+							    </p>
+							    <a href="https://gitlab.com/b224-mambinunsad/s05/activity" target="_blank" class="card-link">Link to Project</a>
+							  </div>
+							</div>
+
+							<div class="card bg-dark col-lg-3 mx-lg-5 my-lg-0 my-4" data-aos="flip-up" data-aos-duration="2000">
+							  <div class="card-body">
+							  	<img class="img-fluid" src="./images/work-2.jpg">
+							    <h5 class="card-title mt-3">Project 2</h5>
+							    <p class="card-text">
+							    	A simple project made from CSS
+							    </p>
+							    <a href="https://gitlab.com/b224-mambinunsad/s08/activity" target="_blank" class="card-link">Link to Project</a>
+							  </div>
+							</div>
+
+							<div class="card bg-dark col-lg-3 mb-lg-0 mb-5" data-aos="flip-left" data-aos-duration="2000">
+							  <div class="card-body">
+							  	<img class="img-fluid" src="./images/work-3.jpg">
+							    <h5 class="card-title mt-3">Project 3</h5>
+							    <p class="card-text">
+							    	A simple project made from Boostrap
+							    </p>
+							    <a href="https://gitlab.com/b224-mambinunsad/s10/activity" target="_blank" class="card-link">Link to Project</a>
+							  </div>
+							</div>
+						</div>			
+					</div>
+				</div>
+				<!-- End of My Work -->
+
+
+				<!-- Start of Contact Me -->
+				<div id="contact-page" class="col-lg-12 d-lg-flex align-items-center justify-content-center min-vh-100">
+					<div class="col-lg-12 d-lg-flex align-items-center justify-content-center flex-column">
+						<h2 class="my-5 mt-lg-0">Contact Me</h2>
+						<p class="my-lg-5 my-4"> My inbox is always open,Whether you have a request or a question, don't hesitate to use the form or email me.</p>
+						<div class="d-lg-flex align-items-center justify-content-center" data-aos="flip-right" data-aos-duration="2000">
+							<div class="col-12 col-lg-6 order-2 order-lg-1">
+								<form class="bg-dark p-3">
+									<h3>Message</h3>
+								  <div class="form-group">
+								    <label for="full-name">Full Name</label>
+								    <input type="email" class="form-control" id="full-name" placeholder="Your Name" required>
+								  </div>
+
+								  <div class="form-group">
+								    <label for="email">Email address</label>
+								    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+								  </div>
+								  
+								  <div class="form-group">
+								    <label for="message">Your Message</label>
+								    <textarea class="form-control" id="message" rows="3" placeholder="Your Message" required></textarea>
+								  </div>
+
+								  <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#modal">
+								    Send!
+								  </button>
+
+								  <!-- Start of Modal -->
+								  <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+								    <div class="modal-dialog">
+								      <div class="modal-content">
+								        <div class="modal-header">
+								          <h5 class="modal-title text-dark" id="modalLabel">Thank you for contacting me!</h5>
+								          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								            <span aria-hidden="true">&times;</span>
+								          </button>
+								        </div>
+								        <div class="modal-body text-dark">
+								          Message Succesfully Sent!
+								        </div>
+								        <div class="modal-footer">
+								          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								        </div>
+								      </div>
+								    </div>
+								  </div>
+								  <!-- End of Modal -->
+								</form>
+							</div>
+
+							<div class="col-12 col-lg-6 order-1 order-lg-2">
+								<div class="mt-3 mb-5 my-lg-0">
+									<h6>General Trias, Cavite Philippines </h6>
+									<p class="my-3">+(639)-907-0990-165</p>
+									<p>mambinunsad.earljohn@gmail.com</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Start of Footer -->
+				<div class="text-center text-light mb-0 mt-5 col-12">
+					<div class="d-lg-none">
+						<a href="https://www.facebook.com/03Meg29/" target="_blank">
+							<img class="img-footer" src="./images/fb-logo.png">
+						</a>
+						<a href="https://twitter.com/EjhayJenRain" target="_blank">
+							<img class="img-footer" src="./images/twitter-logo.png">
+						</a>
+						<a href="https://www.instagram.com/mambinunsad.earljohn/" target="_blank">
+							<img class="img-footer" src="./images/instagram-logo.png">
+						</a>
+						<a href="https://www.linkedin.com/in/earl-john-mambinunsad-433565233/" target="_blank">
+							<img class="img-footer" src="./images/linked-logo.png">
+						</a>
+					</div>
+					<p>Copyright &copy; 2022 Earl John Mambinunsad • Web Designer &amp; Developer</p>
+				</div>
+				<!-- End of Footer -->
+
+			</div>
+		</div>
+		
+
+		
+
+
+
+
+
+
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
+	</body>
+</html>
