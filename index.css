@@ -63,13 +63,13 @@ body {
 
 #home-page h1::before {
     background-color: #010000;
-    animation: type 5.5s steps(28) 1s forwards;
+    animation: type 5.5s steps(36) 1s forwards;
 }
 
 #home-page h1::after {
     width: 0.125em;
     background-color: #edede9;
-    animation: type 5.5s steps(28) 1s forwards,
+    animation: type 5.5s steps(36) 1s forwards,
     blink 600ms steps(28) infinite;
 }
 
