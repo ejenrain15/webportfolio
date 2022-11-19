@@ -40,8 +40,8 @@
 		<div class="container-fluid text-center">
 			<!-- Start of Landing Page -->
 			<div id="home-page" class="d-none d-lg-flex align-items-center justify-content-center min-vh-100 row">
-				<div id="typing-animation">
-					<h1>
+				<div id="typing-animation" class="glass-bg p-5">
+					<h1 class="">
 						<a href="#about-page" id="btn-about" class="text-decoration-none text-white"><span>Hi,<span></a>
 						<a href="#work-page" id="btn-work" class="text-decoration-none text-white"><span>I'm Earl John!<span></a>
 						<a href="#contact-page" id="btn-contact" class="text-decoration-none text-white"><span>Full-Stack Developer<span></a>
@@ -57,59 +57,44 @@
 		<div class="container-fluid text-center">
 			<div class="row">
 				<!-- Start of Side Navbar -->
-				<div class="sidebar card col-lg-1 d-none d-lg-block p-0 sticky-top h-100">
-					<div class="accordion vh-100" id="accordion-side">
+				<div class="col-lg-1 d-none d-lg-block p-0 sticky-top h-100">
+					<div class="sidebar-left">
+						 <ul>
+						 	<li class="left-sidenav mt-2">
+						 		<a href="#home-page">
+						 			<img class="nav-img" src="./images/logo.png">
+						 		</a>
+						 	</li>
 
-					  <div class="card">
-					    <div class="card-header" id="heading-one">
-					      <h2 class="mb-0">
-					        <a href="#home-page"><img class="nav-img" src="./images/logo.png"></a>
-					      </h2>
-					    </div>
-					  </div>
+						 	<li class="left-sidenav mt-5" data-tooltip="Home">
+						 		<a class="mt-3" href="#home-page">
+						 			<img class="nav-img" src="./images/home.png">
+						 		</a>
+						 	</li>
 
-					  <div class="card">
-					    <div class="card-header" id="heading-two">
-					      <h2 class="mb-0">
-					        <a href="#home-page">
-					        	<img class="nav-img bg-info" src="./images/home.png">
-					        </a>
-					      </h2>
-					    </div>
-					  </div>
+						 	<li class="left-sidenav mt-3" data-tooltip="About">
+						 		<a class="mt-3" href="#about-page">
+						 			<img class="nav-img" src="./images/about-me.png">
+						 		</a>
+						 	</li>
 
-					  <div class="card">
-					    <div class="card-header" id="heading-three">
-					      <h2 class="mb-0">
-					        <a href="#about-page">
-					        	<img class="nav-img bg-info" src="./images/about-me.png">
-					        </a>
-					      </h2>
-					    </div>
-					  </div>
+						 	<li class="left-sidenav mt-3" data-tooltip="Work">
+						 		<a class="mt-3" href="#work-page">
+						 			<img class="nav-img" src="./images/my-work.png">
+						 		</a>
+						 	</li>
 
-					  <div class="card">
-					    <div class="card-header" id="heading-four">
-					      <h2 class="mb-0">
-					        <a href="#work-page">
-					        	<img class="nav-img bg-info" src="./images/my-work.png">
-					        </a>
-					      </h2>
-					    </div>
-					  </div>
+						 	<li class="left-sidenav mt-3" data-tooltip="Contact">
+						 		<a class="mt-3" href="#contact-page">
+						 			<img class="nav-img" src="./images/contact-me.png">
+						 		</a>
+						 	</li>
 
-					  <div class="card">
-					    <div class="card-header" id="heading-four">
-					      <h2 class="mb-0">
-					        <a href="#contact-page">
-					        	<img class="nav-img bg-info" src="./images/contact-me.png">
-					        </a>
-					      </h2>
-					    </div>
-					  </div>
-
-					</div>
+						 </ul>	 
+					 </div>
 				</div>
+					    
+					
 				<!-- End of Side Navbar -->
 
 				<!-- Start of About Me  -->
@@ -127,50 +112,34 @@
 				<!-- End of About Me  -->
 
 				<!-- Start of Right Side Bar -->
-				<div class="sidebar card col-lg-1 d-none d-lg-block p-0 sticky-top h-100">
-					<div class="accordion vh-100" id="accordion-side">
+				<div class="col-lg-1 d-none d-lg-block p-0 sticky-top h-100">
+					<div class="sidebar-right">
+						<ul>
+							<li class="right-sidenav" data-tooltip="Facebook">
+								<a href="https://www.facebook.com/03Meg29/" target="_blank">
+									<img class="nav-img" src="./images/fb-logo.png">
+								</a>
+							</li>
 
-					  <div class="card">
-					    <div class="card-header" id="heading-one">
-					      <h2 class="mb-0">
-					        <a href="https://www.facebook.com/03Meg29/" target="_blank">
-					        	<img class="right-sidebar nav-img" src="./images/fb-logo.png">
-					        </a>
-					      </h2>
-					    </div>
-					  </div>
+							<li class="right-sidenav mt-3" data-tooltip="Twitter">
+								<a href="https://twitter.com/EjhayJenRain" target="_blank">
+									<img class="nav-img"src="./images/twitter-logo.png">
+								</a>
+							</li>
 
-					  <div class="card">
-					    <div class="card-header" id="heading-two">
-					      <h2 class="mb-0">
-					        <a href="https://twitter.com/EjhayJenRain" target="_blank">
-					        	<img class="nav-img"src="./images/twitter-logo.png">
-					        </a>
-					      </h2>
-					    </div>
-					  </div>
+							<li class="right-sidenav mt-3" data-tooltip="Instagram">
+								<a href="https://www.instagram.com/mambinunsad.earljohn/" target="_blank">
+									<img class="nav-img" src="./images/instagram-logo.png">
+								</a>
+							</li>
 
-					  <div class="card">
-					    <div class="card-header" id="heading-three">
-					      <h2 class="mb-0">
-					        <a href="#about-page">
-					        	<a href="https://www.instagram.com/mambinunsad.earljohn/" target="_blank">
-					        		<img class="nav-img" src="./images/instagram-logo.png">
-					        	</a>
-					        </a>
-					      </h2>
-					    </div>
-					  </div>
+							<li class="right-sidenav mt-3" data-tooltip="LinkedIn">
+								<a href="https://www.linkedin.com/in/earl-john-mambinunsad-433565233/" target="_blank">
+									<img class="nav-img" src="./images/linked-logo.png">
+								</a>
+							</li>
 
-					  <div class="card">
-					    <div class="card-header" id="heading-four">
-					      <h2 class="mb-0">
-					        <a href="https://www.linkedin.com/in/earl-john-mambinunsad-433565233/" target="_blank">
-					        	<img class="nav-img" src="./images/linked-logo.png">
-					        </a>
-					      </h2>
-					    </div>
-					  </div>
+						</ul>	
 					</div>
 				</div>
 				<!-- End of rightSide Bar -->
@@ -182,7 +151,7 @@
 						
 						<div class="col-lg-12 d-lg-flex align-items-center justify-content-center">
 
-							<div class="card bg-dark col-lg-3" data-aos="flip-right" data-aos-duration="2000">
+							<div class="glass-bg card col-lg-3" data-aos="flip-right" data-aos-duration="2000">
 							  <div class="card-body">
 							  	<img class="img-fluid" src="./images/work-1.jpg">
 							    <h5 class="card-title mt-3">Project 1</h5>
@@ -193,7 +162,7 @@
 							  </div>
 							</div>
 
-							<div class="card bg-dark col-lg-3 mx-lg-5 my-lg-0 my-4" data-aos="flip-up" data-aos-duration="2000">
+							<div class="glass-bg card col-lg-3 mx-lg-5 my-lg-0 my-4" data-aos="flip-up" data-aos-duration="2000">
 							  <div class="card-body">
 							  	<img class="img-fluid" src="./images/work-2.jpg">
 							    <h5 class="card-title mt-3">Project 2</h5>
@@ -204,7 +173,7 @@
 							  </div>
 							</div>
 
-							<div class="card bg-dark col-lg-3 mb-lg-0 mb-5" data-aos="flip-left" data-aos-duration="2000">
+							<div class="glass-bg card col-lg-3 mb-lg-0 mb-5" data-aos="flip-left" data-aos-duration="2000">
 							  <div class="card-body">
 							  	<img class="img-fluid" src="./images/work-3.jpg">
 							    <h5 class="card-title mt-3">Project 3</h5>
@@ -225,9 +194,9 @@
 					<div class="col-lg-12 d-lg-flex align-items-center justify-content-center flex-column">
 						<h2 class="my-5 mt-lg-0 mb-lg-0 pt-5 pt-lg-0">Contact Me</h2>
 						<p class="my-lg-5 my-4"> My inbox is always open,Whether you have a request or a question, don't hesitate to use the form or email me.</p>
-						<div class="d-lg-flex align-items-center justify-content-center" data-aos="flip-right" data-aos-duration="2000">
+						<div class="d-lg-flex align-items-center justify-content-center">
 							<div class="col-12 col-lg-6 order-2 order-lg-1">
-								<form class="bg-dark p-3">
+								<form class="glass-bg p-3">
 									<h3>Message</h3>
 								  <div class="form-group">
 								    <label for="full-name">Full Name</label>
