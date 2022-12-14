@@ -32,4 +32,4 @@ document.querySelector("#contact-form").addEventListener("submit", (e) =>{
 	document.querySelector("#full-name").value = null
 	document.querySelector("#email").value = null
 	document.querySelector("#message").value = null
-})
+});
